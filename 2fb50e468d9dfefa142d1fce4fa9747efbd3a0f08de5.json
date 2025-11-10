@@ -11,9 +11,9 @@
                     "policy_content": "QGlkKCJBZG1pbkNhbk1hbmFnZUF1dGhTZXJ2ZXJDb25maWd1cmF0aW9uIikKcGVybWl0ICgKICBwcmluY2lwYWwgaW4gR2x1dTo6RmxleDo6QWRtaW5VSTo6Um9sZTo6ImFkbWluIiwKICBhY3Rpb24gaW4gW0dsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6InJlYWQiLAogIEdsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6IndyaXRlIiwKICBHbHV1OjpGbGV4OjpBZG1pblVJOjpBY3Rpb246OiJkZWxldGUiXSwKICByZXNvdXJjZSBpbiBHbHV1OjpGbGV4OjpBZG1pblVJOjpSZXNvdXJjZXM6OlBhcmVudFJlc291cmNlOjoiQXV0aFNlcnZlckFuZENvbmZpZ3VyYXRpb24iCik7"
                 },
                 "9481a62beb262541da5ee22c8529c3195c89d5ef4dd8": {
-                    "description": "AdminCanManageAuthServerConfiguration",
+                    "description": "AdminCanManageUserIdentityAndAccess",
                     "creation_date": "2025-11-10T12:11:12.285281",
-                    "policy_content": "QGlkKCJBZG1pbkNhbk1hbmFnZUF1dGhTZXJ2ZXJDb25maWd1cmF0aW9uIikKcGVybWl0ICgKICBwcmluY2lwYWwgaW4gR2x1dTo6RmxleDo6QWRtaW5VSTo6Um9sZTo6ImFkbWluIiwKICBhY3Rpb24gaW4gW0dsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6InJlYWQiLAogIEdsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6IndyaXRlIiwKICBHbHV1OjpGbGV4OjpBZG1pblVJOjpBY3Rpb246OiJkZWxldGUiXSwKICByZXNvdXJjZSBpbiBHbHV1OjpGbGV4OjpBZG1pblVJOjpSZXNvdXJjZXM6OlBhcmVudFJlc291cmNlOjoiQXV0aFNlcnZlckFuZENvbmZpZ3VyYXRpb24iCik7"
+                    "policy_content": "QGlkKCJBZG1pbkNhbk1hbmFnZVVzZXJJZGVudGl0eUFuZEFjY2VzcyIpCnBlcm1pdCAoCiAgcHJpbmNpcGFsIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OlJvbGU6OiJhZG1pbiIsCiAgYWN0aW9uIGluIFtHbHV1OjpGbGV4OjpBZG1pblVJOjpBY3Rpb246OiJyZWFkIiwKICBHbHV1OjpGbGV4OjpBZG1pblVJOjpBY3Rpb246OiJ3cml0ZSIsCiAgR2x1dTo6RmxleDo6QWRtaW5VSTo6QWN0aW9uOjoiZGVsZXRlIl0sCiAgcmVzb3VyY2UgaW4gR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpQYXJlbnRSZXNvdXJjZTo6IklkZW50aXR5QW5kQWNjZXNzIgopOw=="
                 }
             },
             "trusted_issuers": {
