@@ -1,0 +1,6 @@
+@id("ViewerCanViewUserIdentityAndAccess")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"viewer",
+  action in Gluu::Flex::AdminUI::Action::"read",
+  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"IdentityAndAccess"
+);
