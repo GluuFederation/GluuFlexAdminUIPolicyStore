@@ -1,0 +1,20 @@
+@id("AdminCanManageAuthServerConfiguration")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"admin-read",
+action in [Gluu::Flex::AdminUI::Action::"read"],
+  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"AuthServerAndConfiguration"
+);
+
+@id("AdminCanManageAuthServerConfiguration")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"admin-read",
+action in [Gluu::Flex::AdminUI::Action::"read"],
+  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"AuthServerAndConfiguration"
+);
+
+@id("AdminCanManageAuthServerConfiguration")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"admin-read",
+action in [Gluu::Flex::AdminUI::Action::"read"],
+  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"AuthServerAndConfiguration"
+);
