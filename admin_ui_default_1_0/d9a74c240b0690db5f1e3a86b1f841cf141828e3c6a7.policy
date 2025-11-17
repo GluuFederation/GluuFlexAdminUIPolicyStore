@@ -197,3 +197,9 @@ permit (
   action in  [Gluu::Flex::AdminUI::Action::"read"],
   resource in Gluu::Flex::AdminUI::Resources::Features::"Security"
 );
+@id("editorCanSeePersistance")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Persistance"
+);
