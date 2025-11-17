@@ -197,3 +197,156 @@ permit (
   action in  [Gluu::Flex::AdminUI::Action::"read"],
   resource in Gluu::Flex::AdminUI::Resources::Features::"Security"
 );
+@id("editorCanSeeSettings")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Settings"
+);
+
+@id("editorCanSeeWebhooks")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Webhooks"
+);
+
+@id("editorCanSeeAssets")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Assets"
+);
+
+@id("editorCanSeeAuditLogs")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"AuditLogs"
+);
+
+@id("editorCanSeeClients")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Clients"
+);
+
+@id("editorCanSeeKeys")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Keys"
+);
+
+@id("editorCanSeeAuthenticationServerConfiguration")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"AuthenticationServerConfiguration"
+);
+
+@id("editorCanSeeLogging")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Logging"
+);
+
+@id("editorCanSeeAuthentication")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Authentication"
+);
+
+@id("editorCanSeeConfigApiConfiguration")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"ConfigApiConfiguration"
+);
+
+@id("editorCanSeeSession")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Session"
+);
+
+@id("editorCanSeeUsers")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Users"
+);
+
+@id("editorCanSeeScripts")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Scripts"
+);
+
+@id("editorCanSeeAttributes")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Attributes"
+);
+
+@id("editorCanSeeCache")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Cache"
+);
+
+@id("editorCanSeePersistence")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Persistence"
+);
+
+@id("editorCanSeeSMTP")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"SMTP"
+);
+
+@id("editorCanSeeSCIM")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"SCIM"
+);
+
+@id("editorCanSeeFIDO")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"FIDO"
+);
+
+@id("editorCanSeeSAML")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"SAML"
+);
+
+@id("editorCanSeeLock")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Lock"
+);
+
+@id("editorCanSeeSecurity")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"editor",
+  action in  [Gluu::Flex::AdminUI::Action::"read", Gluu::Flex::AdminUI::Action::"write"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"Security"
+);
