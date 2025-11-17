@@ -173,3 +173,9 @@ permit (
   action in  [Gluu::Flex::AdminUI::Action::"read"],
   resource in Gluu::Flex::AdminUI::Resources::Features::"FIDO"
 );
+@id("ViewerCanSeeSAML")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"viewer",
+  action in  [Gluu::Flex::AdminUI::Action::"read"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"SAML"
+);
