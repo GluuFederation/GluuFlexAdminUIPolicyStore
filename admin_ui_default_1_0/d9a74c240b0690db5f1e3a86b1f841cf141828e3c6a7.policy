@@ -161,3 +161,9 @@ permit (
   action in  [Gluu::Flex::AdminUI::Action::"read"],
   resource in Gluu::Flex::AdminUI::Resources::Features::"SMTP"
 );
+@id("ViewerCanSeeSCIM")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"viewer",
+  action in  [Gluu::Flex::AdminUI::Action::"read"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"SCIM"
+);
