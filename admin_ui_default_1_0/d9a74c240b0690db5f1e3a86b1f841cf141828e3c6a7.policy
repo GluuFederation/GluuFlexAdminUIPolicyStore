@@ -77,3 +77,9 @@ permit (
   action in  [Gluu::Flex::AdminUI::Action::"read"],
   resource in Gluu::Flex::AdminUI::Resources::Features::"Assests"
 );
+@id("ViewerCanSeeAuditLogs")
+permit (
+  principal in Gluu::Flex::AdminUI::Role::"viewer",
+  action in  [Gluu::Flex::AdminUI::Action::"read"],
+  resource in Gluu::Flex::AdminUI::Resources::Features::"AuditLogs"
+);
