@@ -34,6 +34,11 @@
                     "description": "ViewerCanViewUserIdentityAndAccess",
                     "creation_date": "2025-11-10T12:13:11.645773",
                     "policy_content": "QGlkKCJWaWV3ZXJDYW5WaWV3VXNlcklkZW50aXR5QW5kQWNjZXNzIikKcGVybWl0ICgKICBwcmluY2lwYWwgaW4gR2x1dTo6RmxleDo6QWRtaW5VSTo6Um9sZTo6InZpZXdlciIsCiAgYWN0aW9uIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6InJlYWQiLAogIHJlc291cmNlIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6UGFyZW50UmVzb3VyY2U6OiJJZGVudGl0eUFuZEFjY2VzcyIKKTs="
+                },
+                "5d710599cad19ae8161cf2ecda1e6e9ce95e9abf3379": {
+                    "description": "AdminCanManageEssentialAdminUIScopes",
+                    "creation_date": "2026-01-09T12:54:40.563729",
+                    "policy_content": "QGlkKCJBZG1pbkNhbk1hbmFnZUVzc2VudGlhbEFkbWluVUlTY29wZXMiKQpwZXJtaXQgKAogIHByaW5jaXBhbCBpbiBHbHV1OjpGbGV4OjpBZG1pblVJOjpSb2xlOjoiYWRtaW4iLAogIGFjdGlvbiBpbiBbR2x1dTo6RmxleDo6QWRtaW5VSTo6QWN0aW9uOjoicmVhZCIsCiAgR2x1dTo6RmxleDo6QWRtaW5VSTo6QWN0aW9uOjoid3JpdGUiLAogIEdsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6ImRlbGV0ZSJdLAogIHJlc291cmNlIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6UGFyZW50UmVzb3VyY2U6OiJFc3NlbnRpYWxBZG1pblVJU2NvcGVzIgopOw=="
                 }
             },
             "trusted_issuers": {
