@@ -34,6 +34,16 @@
                     "description": "ViewerCanViewUserIdentityAndAccess",
                     "creation_date": "2025-11-10T12:13:11.645773",
                     "policy_content": "QGlkKCJWaWV3ZXJDYW5WaWV3VXNlcklkZW50aXR5QW5kQWNjZXNzIikKcGVybWl0ICgKICBwcmluY2lwYWwgaW4gR2x1dTo6RmxleDo6QWRtaW5VSTo6Um9sZTo6InZpZXdlciIsCiAgYWN0aW9uIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6InJlYWQiLAogIHJlc291cmNlIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6UGFyZW50UmVzb3VyY2U6OiJJZGVudGl0eUFuZEFjY2VzcyIKKTs="
+                },
+                "5d710599cad19ae8161cf2ecda1e6e9ce95e9abf3379": {
+                    "description": "AdminCanManageEssentialAdminUIScopes",
+                    "creation_date": "2026-01-09T12:54:40.563729",
+                    "policy_content": "QGlkKCJBZG1pbkNhbk1hbmFnZUVzc2VudGlhbEFkbWluVUlTY29wZXMiKQpwZXJtaXQgKAogIHByaW5jaXBhbCBpbiBHbHV1OjpGbGV4OjpBZG1pblVJOjpSb2xlOjoiYWRtaW4iLAogIGFjdGlvbiBpbiBbR2x1dTo6RmxleDo6QWRtaW5VSTo6QWN0aW9uOjoicmVhZCIsCiAgR2x1dTo6RmxleDo6QWRtaW5VSTo6QWN0aW9uOjoid3JpdGUiLAogIEdsdXU6OkZsZXg6OkFkbWluVUk6OkFjdGlvbjo6ImRlbGV0ZSJdLAogIHJlc291cmNlIGluIEdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6UGFyZW50UmVzb3VyY2U6OiJFc3NlbnRpYWxBZG1pblVJU2NvcGVzIgopOw=="
+                },
+                "be7131eba728666981de9b5727a637446539614aa928": {
+                    "description": "AuditorCanManageAdminUISession",
+                    "creation_date": "2026-01-09T12:56:23.431028",
+                    "policy_content": "QGlkKCJBdWRpdG9yQ2FuTWFuYWdlQWRtaW5VSVNlc3Npb24iKQpwZXJtaXQgKAogIHByaW5jaXBhbCBpbiBHbHV1OjpGbGV4OjpBZG1pblVJOjpSb2xlOjoiYXVkaXRvciIsCiAgYWN0aW9uIGluIFtHbHV1OjpGbGV4OjpBZG1pblVJOjpBY3Rpb246OiJyZWFkIiwKICBHbHV1OjpGbGV4OjpBZG1pblVJOjpBY3Rpb246OiJ3cml0ZSIsCiAgR2x1dTo6RmxleDo6QWRtaW5VSTo6QWN0aW9uOjoiZGVsZXRlIl0sCiAgcmVzb3VyY2UgaW4gR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpGZWF0dXJlczo6IkFkbWluVUlTZXNzaW9uIgopOw=="
                 }
             },
             "trusted_issuers": {
@@ -115,7 +125,8 @@
                 "8694c954f8c3": "eyJ1aWQiOnsidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6RmVhdHVyZXMiLCJpZCI6IlNDSU0ifSwiYXR0cnMiOnt9LCJwYXJlbnRzIjpbeyJ0eXBlIjoiR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpQYXJlbnRSZXNvdXJjZSIsImlkIjoiU2VydmljZSJ9XX0=",
                 "9694c954f8c2": "eyJ1aWQiOnsidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6RmVhdHVyZXMiLCJpZCI6IkZJRE8ifSwiYXR0cnMiOnt9LCJwYXJlbnRzIjpbeyJ0eXBlIjoiR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpQYXJlbnRSZXNvdXJjZSIsImlkIjoiU2VydmljZSJ9XX0=",
                 "a694c954f8c1": "eyJ1aWQiOnsidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6RmVhdHVyZXMiLCJpZCI6IlNBTUwifSwiYXR0cnMiOnt9LCJwYXJlbnRzIjpbeyJ0eXBlIjoiR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpQYXJlbnRSZXNvdXJjZSIsImlkIjoiU2VydmljZSJ9XX0=",
-                "b694c954f8c0": "eyJ1aWQiOnsidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6RmVhdHVyZXMiLCJpZCI6IkxvY2sifSwiYXR0cnMiOnt9LCJwYXJlbnRzIjpbeyJ0eXBlIjoiR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpQYXJlbnRSZXNvdXJjZSIsImlkIjoiU2VydmljZSJ9XX0="
+                "b694c954f8c0": "eyJ1aWQiOnsidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6RmVhdHVyZXMiLCJpZCI6IkxvY2sifSwiYXR0cnMiOnt9LCJwYXJlbnRzIjpbeyJ0eXBlIjoiR2x1dTo6RmxleDo6QWRtaW5VSTo6UmVzb3VyY2VzOjpQYXJlbnRSZXNvdXJjZSIsImlkIjoiU2VydmljZSJ9XX0=",
+                "1dfef88d1cd0": "eyJ1aWQiOnsidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6RmVhdHVyZXMiLCJpZCI6IkFkbWluVUlTZXNzaW9uIn0sImF0dHJzIjp7fSwicGFyZW50cyI6W3sidHlwZSI6IkdsdXU6OkZsZXg6OkFkbWluVUk6OlJlc291cmNlczo6UGFyZW50UmVzb3VyY2UiLCJpZCI6IkVzc2VudGlhbEFkbWluVUlTY29wZXMifV19"
             }
         }
     }
