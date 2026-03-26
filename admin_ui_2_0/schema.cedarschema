@@ -60,15 +60,6 @@ namespace GluuFlexAdminUI {
     issuer_entity_id: Url
   };
 
-  entity User in [Role] = {
-    email?: email_address,
-    id_token?: id_token,
-    phone_number?: String,
-    sub: String,
-    userinfo_token?: Userinfo_token,
-    username?: String
-  };
-
   entity Userinfo_token = {
     aud: String,
     birthdate?: String,
@@ -82,15 +73,6 @@ namespace GluuFlexAdminUI {
     phone_number?: String,
     sub: String
   } tags Set<String>;
-
-  entity Workload = {
-    access_token?: Access_token,
-    client_id: String,
-    iss: TrustedIssuer,
-    name?: String,
-    rp_id?: String,
-    spiffe_id?: String
-  };
 
   entity id_token = {
     acr?: String,
