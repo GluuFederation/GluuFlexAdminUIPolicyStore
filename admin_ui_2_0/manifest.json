@@ -1,0 +1,54 @@
+{
+    "policy_store_id": "36ccd2e612a9d3543487b6e25283f5403bed9d1d5f32",
+    "generated_date": "2026-03-25T09:39:13.406003+00:00",
+    "files": {
+        "entities/ParentResourceToFeaturesMapping.json": {
+            "size": 9507,
+            "checksum": "sha1:dd0f4f0cd68c79bd59373b58b459c623a44bfa8d"
+        },
+        "manifest.json": {
+            "size": 2063,
+            "checksum": "sha1:eb4a81b01245efb9c6ce2ba8f4ab9199d2311914"
+        },
+        "metadata.json": {
+            "size": 360,
+            "checksum": "sha1:d3dd5bb38617b40a673f02c646dab83a9618fba3"
+        },
+        "policies/AdminCanManageAuthServerConfiguration.cedar": {
+            "size": 513,
+            "checksum": "sha1:b6dd8f4a112742765f0afa53efeaf69a7f9c7fb5"
+        },
+        "policies/AdminCanManageEssentialAdminUIScopes.cedar": {
+            "size": 508,
+            "checksum": "sha1:f59c1e63c4f9e3482372932fbc79d478899a1b6e"
+        },
+        "policies/AdminCanManageIdentityAndAccess.cedar": {
+            "size": 498,
+            "checksum": "sha1:94edc8e07be58086d8ba755c8a69cbdf174f02ac"
+        },
+        "policies/AdminCanManageService.cedar": {
+            "size": 478,
+            "checksum": "sha1:54566e8dab32cd1a4e8aff0cf4660139bafe6afc"
+        },
+        "policies/AdminCanManageSystemAndMonitoring.cedar": {
+            "size": 502,
+            "checksum": "sha1:fe2214bb3bba8c652769532b6abb2628622c5a7f"
+        },
+        "policies/AuditorCanManageAdminUISession.cedar": {
+            "size": 490,
+            "checksum": "sha1:d8034e45ecdec0dbb694a4f6f574436874154538"
+        },
+        "policies/AuditorCanManageDashboard.cedar": {
+            "size": 480,
+            "checksum": "sha1:1fca4b985ae62c265e5ac6f59f340497bb229e70"
+        },
+        "schema.cedarschema": {
+            "size": 2772,
+            "checksum": "sha1:cf1e6c5fae26ff2ceb973daca83ecb847e0b82b5"
+        },
+        "trusted-issuers/GluuFlexAdminUI.json": {
+            "size": 1532,
+            "checksum": "sha1:75fcafc45ef76eaba3e6006eb210a0f6f62313b4"
+        }
+    }
+}
