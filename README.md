@@ -56,12 +56,17 @@ The default policies present in the policy store
 ```
 @id("AdminCanManageAuthServerConfiguration")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"admin",
-  action in [Gluu::Flex::AdminUI::Action::"read",
-  Gluu::Flex::AdminUI::Action::"write",
-  Gluu::Flex::AdminUI::Action::"delete"],
-  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"AuthServerAndConfiguration"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::ParentResource::"AuthServerAndConfiguration"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("admin")
+};
 ```
 
 #### Admin can manage User Indetity and Access
@@ -70,12 +75,17 @@ permit (
 ```
 @id("AdminCanManageUserIdentityAndAccess")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"admin",
-  action in [Gluu::Flex::AdminUI::Action::"read",
-  Gluu::Flex::AdminUI::Action::"write",
-  Gluu::Flex::AdminUI::Action::"delete"],
-  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"IdentityAndAccess"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::ParentResource::"IdentityAndAccess"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("admin")
+};
 ```
 
 #### Admin can manage system monitoring
@@ -84,12 +94,17 @@ permit (
 ```
 @id("AdminCanManageSystemMonitoring")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"admin",
-  action in [Gluu::Flex::AdminUI::Action::"read",
-  Gluu::Flex::AdminUI::Action::"write",
-  Gluu::Flex::AdminUI::Action::"delete"],
-  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"SystemAndMonitoring"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::ParentResource::"SystemAndMonitoring"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("admin")
+};
 ```
 
 #### Admin can manage services
@@ -98,48 +113,71 @@ permit (
 ```
 @id("AdminCanManageService")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"admin",
-  action in [Gluu::Flex::AdminUI::Action::"read",
-  Gluu::Flex::AdminUI::Action::"write",
-  Gluu::Flex::AdminUI::Action::"delete"],
-  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"Service"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::ParentResource::"Service"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("admin")
+};
 ```
 
-#### Auditor can Mmanage System Monitoring
+#### Admin can manage Essential Admin UI Scopes
 
-```
-@id("AuditorCanManageSystemMonitoring")
+````
+@id("AdminCanManageEssentialAdminUIScopes")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"auditor",
-  action in [Gluu::Flex::AdminUI::Action::"read",
-  Gluu::Flex::AdminUI::Action::"write",
-  Gluu::Flex::AdminUI::Action::"delete"],
-  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"SystemAndMonitoring"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::ParentResource::"EssentialAdminUIScopes"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("admin")
+};
+````
+
+#### Auditor can Mmanage Admin UI Session
+
 ```
-
-#### Auditor can manage Clients
-
-
-```
-@id("AuditorCanManageClients")
+@id("AuditorCanManageAdminUISession")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"auditor",
-  action in [Gluu::Flex::AdminUI::Action::"read",
-  Gluu::Flex::AdminUI::Action::"write",
-  Gluu::Flex::AdminUI::Action::"delete"],
-  resource in Gluu::Flex::AdminUI::Resources::Features::"Clients"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::Features::"AdminUISession"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("auditor")
+};
 ```
 
-#### Viewer can view User Indetity and Access
+#### Auditor can manage Dashboard
+
 
 ```
-@id("ViewerCanViewUserIdentityAndAccess")
+@id("AuditorCanManageDashboard")
 permit (
-  principal in Gluu::Flex::AdminUI::Role::"viewer",
-  action in Gluu::Flex::AdminUI::Action::"read",
-  resource in Gluu::Flex::AdminUI::Resources::ParentResource::"IdentityAndAccess"
-);
+  principal,
+  action in [GluuFlexAdminUI::Action::"read",
+  GluuFlexAdminUI::Action::"write",
+  GluuFlexAdminUI::Action::"delete"],
+  resource in GluuFlexAdminUIResources::Features::"Dashboard"
+)
+when {
+    context has tokens.gluuflexadminui_userinfo_token &&
+    context.tokens.gluuflexadminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.gluuflexadminui_userinfo_token.getTag("jansAdminUIRole").contains("auditor")
+};
 ```
+

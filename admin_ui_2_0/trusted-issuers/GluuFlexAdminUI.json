@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "token_metadata": {
+        "access_token": {
+            "entity_type_name": "GluuFlexAdminUI::Access_token",
+            "token_id": "jti"
+        },
+        "id_token": {
+            "entity_type_name": "GluuFlexAdminUI::id_token",
+            "token_id": "jti"
+        },
+        "userinfo_token": {
+            "entity_type_name": "GluuFlexAdminUI::Userinfo_token",
+            "token_id": "jti",
+            "role_mapping": "jansAdminUIRole"
+        }
+    },
+    "configuration_endpoint": "https://your-openid-provider.server/.well-known/openid-configuration",
+    "name": "GluuFlexAdminUI",
+    "id": "07a3d91b8f424c95890a4e918238cfeecb48975eb477"
+}
