@@ -1,10 +1,8 @@
-@id("AuditorCanManageAdminUISession")
+@id("AuditorCanReadUsers")
 permit (
   principal,
-  action in [GluuFlexAdminUI::Action::"read",
-  GluuFlexAdminUI::Action::"write",
-  GluuFlexAdminUI::Action::"delete"],
-  resource in GluuFlexAdminUIResources::Features::"AdminUISession"
+  action in [GluuFlexAdminUI::Action::"read"],
+  resource in GluuFlexAdminUIResources::Features::"Users"
 )
 when {
     context has tokens.gluuflexadminui_userinfo_token &&
